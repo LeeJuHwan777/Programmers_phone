@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.AllInput {
+  margin-top: 1rem;
+  border: 2px solid lightgray;
+  max-width: 700px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.input-el_1,
+.input-el_2,
+.input-el_3,
+.input-el_4 {
+  margin-bottom: 1rem;
+}
+
+
+.input-el_1 {
+  display: flex;
+  gap: 1rem;
+}
+
+.input-el_1 h3 {
+  width: 30%;
+}
+.input-el_1 input {
+  width: 70%;
+}
+
+.input-el_2 {
+  display: flex;
+  gap: 1rem;
+}
+
+.input-el_2 h3 {
+  width: 30%;
+}
+.input-el_2 input {
+  width: 70%;
+}
+
+.input-el_3 {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input-el_3 h3 {
+  width: 30%;
+}
+
+.input-el_3 select {
+  width: 35%;
+  margin-left: 20px;
+}
+
+.input-el_3 button {
+  width: 33%;
+  margin-left: 30px;
+}
+
+.input-el_4 {
+  display: flex;
+  gap: 1rem;
+}
+
+.input-el_4 h3 {
+  width: 30%;
+}
+
+.input-el_4 input {
+  width: 70%;
+}
+
+.saveBtn {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  color: white;
+  background-color: #004AAD;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.AllInput, .SearchCon {
+  flex: 1; /* 각 요소가 동일한 크기를 가지도록 설정 */
+}
+
+.search {
+  width: 50%;
+  outline: none;
+  border: none;
+  background-color: lightblue;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 0.5rem;
+}
+
+.searchBtn {
+  margin-left: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #004AAD;
+  padding: 0.5rem;
+  color: white;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+}
+
+.main-search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.list_0,
+.list_1,
+.list_2,
+.list_3,
+.list_4 {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 30px;
+}
